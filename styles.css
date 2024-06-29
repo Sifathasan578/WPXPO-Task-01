@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.wheel-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px, 20px;
+    font-size: 16px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nameInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#addName {
+    padding: 10px 20px;
+    font-size: 16px;
+}
